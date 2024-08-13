@@ -76,7 +76,7 @@ function SearchForm({ filters, setFilters }) {
             type="text"
             name="q"
             className="form-control search-main"
-            placeholder={isFocused ? '' : 'Введите запрос'}
+            placeholder={isFocused ? '' : 'Введите запрос '}
             value={searchText}
             onChange={handleInputChange}
             onFocus={handleFocus}
