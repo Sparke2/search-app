@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function ResultsAccordion() {
   return (
     <div className='py-4'>
-      <h5 className='mb-4' >Всего найдено:</h5>
+      <h5 className='mb-4'>Всего найдено:</h5>
       <Accordion>
         <Accordion.Item eventKey="0">
           <Accordion.Header>Книг: 61603</Accordion.Header>
