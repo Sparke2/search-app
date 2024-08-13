@@ -20,7 +20,7 @@ function Header() {
           <div className="navbar-collapse collapse" id="bdNavbar">
             <div className="w-100 d-flex justify-content-between align-items-center align-content-between flex-wrap py-1">
               <button id="btn-menu" className="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMenu" aria-expanded="false" aria-controls="collapseMenu">
-                <FontAwesomeIcon icon={faBars} />
+                <FontAwesomeIcon icon={faBars}/>
               </button>
               <a href="https://www.iprbookshop.ru" className="navbar-brand brandName d-xl-block d-none">
                 <img src={logo} className="img-fluid pr-5" alt="" />
